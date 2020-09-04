@@ -1,13 +1,10 @@
 import React from 'react';
 
-
-
 const CommentInfo = (props) => {
     
     const {name, email, body} = props.comment;
     
-    
-    return (
+     return (
         <div>
             
             <h1>Name: {name}</h1>

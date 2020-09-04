@@ -10,7 +10,7 @@ const Home = () => {
         .then(data => setPosts(data))
         
     }, [])
-    console.log(posts)
+    // console.log(posts)
     return (
         <div>
             <h1 style={{textAlign:'center'}}>Posts: {posts.length}</h1>
