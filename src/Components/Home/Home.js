@@ -8,12 +8,12 @@ const Home = () => {
         fetch("https://jsonplaceholder.typicode.com/posts")
         .then(res => res.json())
         .then(data => setPosts(data))
-        
     }, [])
-    // console.log(posts)
+    
+    
     return (
         <div>
-            <h1 style={{textAlign:'center'}}>Posts: {posts.length}</h1>
+            <h1 style={{textAlign:'center', color:"maroon"}}>Hot posts of the day</h1>
             {
                 posts.map(post => <Post post={post}></Post>)
             }

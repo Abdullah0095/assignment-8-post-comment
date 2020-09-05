@@ -16,7 +16,7 @@ const Post = (props) => {
         width: '40%',
         height: '200px',
         float: 'left'
-}
+    }
 
     return (
         <div style={postStyle}>
